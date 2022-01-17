@@ -9,8 +9,6 @@
 </template>
 
 <style lang="postcss">
-@import url("@/index.css");
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,5 +16,9 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.router-link-active,
+.router-link-exact-active {
+  @apply text-teal-600 underline underline-offset-4 font-semibold font-sans !important;
 }
 </style>
