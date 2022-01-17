@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div class="nav">
@@ -10,7 +9,7 @@
 </template>
 
 <style lang="postcss">
-@import url('@/index.css');
+@import url("@/index.css");
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
